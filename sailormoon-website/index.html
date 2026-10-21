@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TV Show: Assignment03</title>
+
+<style>
+	body {
+		margin: 0px;
+		background-color: #E3E4FA;
+		/* final change add background color of black */
+	}
+		img {
+		width: 100px;
+		height: auto;
+	}
+	
+	#header {
+		background-image: url("img2/sailormoon.jpg"); 
+		height: 500px;
+		line-height: : 500px;
+		background-repeat: no-repeat;
+		background-size:cover;
+		background-position: bottom center;
+		text-align: center;
+
+	}
+	
+	h1 {
+	color: white;
+	font-size: 50px;
+	text-shadow: 10px 10px 0px mediumpurple;
+	margin: 0;
+}
+
+	/* add #wrapper CSS, background color of pink, set width to 1000px and margin left and right auto */
+	/* then make background color same as sidebar background color */
+	#wrapper {
+		background-color: #ffffe0;
+		width:1100px;
+		margin:0 auto;
+	}	
+	#content {
+		width: 850px;
+		line-height:2.5;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 15px;
+		float:left;
+		background-color:#ffffe0;
+			
+		/* add background-color, float left */
+		
+		}
+	#sidebar {
+		width: 210px;
+		background-color: #FFF0F5; 
+		float:left; padding: 5px;
+	}
+		
+	/* add #sidebar CSS, background color, width, float left and padding */
+	/* #sidebar width = (#wrapper width minus #content width) minus ((SUM of #content left AND right padding/margins/borders) plus */ 
+	/* SUM of #sidebar left AND right padding/margins/borders)) */
+
+		
+	#footer {
+		background-color: #F8F6F0;
+		color: #4E387E;
+		text-align: center;
+		font-size:1em;
+		line-height:50px;
+		height:50px;
+		padding: 5px 0px;
+
+
+
+	}
+/* added #footer p because p tag by default has margins */
+		
+	/* change img to use a class instead since img tag used in gallery */
+
+	.logo {
+		width: 100px;
+		height: auto;
+		float: right;
+		padding-left:15px;
+		padding-top:75px;
+	}
+		
+	/* add thumbnail class background-color of lightgreen, calculate width, set same height, float left, add margin of 5 and border, overflow hidden*/
+	/* WIDTH = ((#content width) - (SUM of this CSS left AND right padding/margins/borders)/4  (round down) */
+	
+	/* landscape class adjust image to auto width, height 100% */
+.thumbnail{
+	float:left;
+	background-color: lightgreen;
+	width:177px;
+	height:187px;
+	overflow:hidden;
+	margin:5px;
+}
+	/* portrait class adjust image to width 100%, height auto */
+
+	.landscape {
+		width:auto;
+		height:100%;
+	}
+	.portrait{
+		width:80%;
+		height:auto;
+	}
+	/* add clearfloat class */
+
+	.clearfloat {
+		clear:both;
+	}	
+
+	.footerp {
+		margin-top:0px;
+	}
+
+img {
+	padding:20px;
+	height:280px;
+	width:auto;
+}
+.floatright {float:right;}
+
+.floatleft {float:left}
+
+.center {
+text-align:center;
+}
+
+	</style>
+ 
+</head>
+<body>
+<!-- h1 tag -->
+<div id="header">
+<h1>Sailor Moon</h1>
+</div><!-- #header -->
+
+<!-- add the #wrapper div below -->
+<div id="wrapper">
+
+<div id="content">
+
+<h3>About</h3>
+
+	<!-- p tags -->
+	<img src="img2/plot.png" class="floatright" alt="sailormoon">
+	<p>Sailor Moon is a story about Usagi Tsukino, a carefree and compassionate schoolgirl who transforms into Sailor Moon, a powerful warrior tasked with saving the Earth from evil forces. Along with her friends and teammates, the Sailor Guardians, each representing a different celestial body, Sailor Moon fights to protect the Earth using the legendary Silver Crystal. The series is known for its dramatic tone, which often leans into full-on melodrama to create captivating story beats. Despite its darker themes, Sailor Moon is also a story about love, friendship, compassion, and empathy which are central to the character of Usagi.</p>
+
+	<p>The series features a large cast of characters, each with their own unique personalities and abilities. In addition to Usagi, the main characters include Mamoru Chiba, Usagi's love interest who transforms into Tuxedo Mask, and the Sailor Guardians, including Sailor Mercury, Sailor Mars, Sailor Jupiter, and Sailor Venus. The series also features a variety of villains, including Queen Beryl and the Black Moon Clan. The characters are well-developed and have complex relationships with one another, which adds depth to the story. Despite being a magical girl series, Sailor Moon is known for its darker themes and complex characters, which have made it a beloved classic in the anime and manga world.</p>
+
+
+<img src="img2/production.jpg" class="floatleft" alt="mockup">
+	<h3>Production</h3>
+
+	<p>The series was serialized in the monthly manga anthology Nakayoshi from December 1991 to February 1997. The anime adaptation of the series was directed by Junichi Sato and Kunihiko Ikuhara, with Kazuko Tadano and Ikuko Itoh as character designers. The series was produced by Toei Animation and aired from 1992 to 1997. The series has been praised for its unique animation style, character designs, and story development.</p>
+
+	<p>The production of Sailor Moon was inspired by Naoko Takeuchi's love for mythology, astrology, and the supernatural. The series features motifs of magical girls, romance, and adventure. The animation style of the series is characterized by its use of bright colors, detailed character designs, and fluid animation. The series has been adapted into various forms of media, including musicals, video games, and live-action adaptations. The popularity of the series has led to the creation of various merchandise, such as plushies, figures, and cosmetics. Sailor Moon has become a cultural phenomenon and has influenced a generation of anime and manga creators.</p>
+
+
+	<h3>Cultural Impact</h3>
+	<img src="img2/jimmy.png" class="floatright" alt="jimmmychoo">
+	<p>Sailor Moon has had a significant cultural impact on society, particularly in Japan and among anime fans worldwide. Sailor Moon is renowned for its positive portrayal of female empowerment. The characters in the series are strong, independent, and capable. The franchise is a celebration of femininity and has helped to break down gender stereotypes in anime and manga. Sailor Moon has been praised for its feminist themes and messages. The series has been described as a celebration empowering young women. The series centers on empowered young women who fight for justice and equality. The series has also been praised for its positive representation of LGBTQ+ characters and its handling of themes such as love, ambition, and personal growth.</p>
+
+	<p>Sailor Moon has had a profound impact on anime and manga culture. The series has inspired a generation of creators and has helped to shape the industry. The series has also had a significant impact on popular culture, with its characters and themes appearing in various forms of media, such as video games, musicals, and live-action adaptations. Sailor Moon has become a cultural icon and a symbol of female empowerment and feminism. The series has helped to break down gender stereotypes and has inspired young women to be strong, independent, and confident. </p>
+
+<!-- close content tag below this comment line -->
+</div>
+<!-- add #sidebar div below here -->
+<div id="sidebar">
+<h3 class="center">The Cast</h3>
+<img src="img2/moon.jpg" alt="moon" class="portrait">
+<h4 class="center">Usagi Tsukino</h4>
+<p class="center">Sailor Moon</p>
+
+<img src="img2/mercury.png" alt="mercury" class="portrait">
+<h4 class="center">Ami Mizuno</h4>
+<p class="center">Sailor Mercury</p>
+
+<img src="img2/mars.jpg" alt="mars" class="portrait">
+<h4 class="center">Rei Hino</h4>
+<p class="center">Sailor Mars</p>
+
+<img src="img2/jupiter.gif" alt="jupiter" class="portrait">
+<h4 class="center">Makoto Kino</h4>
+<p class="center">Sailor Jupiter</p>
+
+<img src="img2/venus.jpg" alt="venus" class="portrait">
+<h4 class="center">Minako Aino</h4>
+<p class="center">Sailor Venus</p>
+
+<img src="img2/earth.jpg" alt="earth" class="portrait">
+<h4 class="center">Mamoru Chiba</h4>
+<p class="center">Tuxedo Mask</p>
+
+
+
+
+</div>
+<!-- close #sidebar below this comment -->
+
+<!-- add the clearfloat div class below this comment -->
+<div class="clearfloat"></div>
+<!-- close the #wrapper tag below this comment -->
+
+</div> 
+
+<div id="footer">
+<p class="footerp">Watch on Hulu &copy; 2023</p>
+
+</div><!-- Footer -->
+
+</body>
+</html>
